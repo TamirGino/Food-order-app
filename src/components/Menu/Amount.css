@@ -1,0 +1,47 @@
+.main-amount {
+    display:flex;
+    position: absolute;
+    flex-direction: column;
+    width: 6rem;
+    height: 6rem;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    left:650px;
+  }
+
+  .main-amount button {
+    align-items: center;
+    font: inherit;
+    font-weight : bold ;
+    color: white;
+    cursor: pointer;
+    background-color: #5bc0de;
+    border: 0px solid;
+    padding: 0.2rem 1.2rem;
+    border-radius: 30px;
+    margin-left: 0.5rem;
+    /* margin-top: 0.2rem; */
+  }
+  
+  .main-amount button:hover,
+  .main-amount button:active {
+    background-color: #0275d8;
+    border-color: #0275d8;
+    color: white;
+  }
+  .main-amount input {
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    /* font: inherit;
+    font-weight : bold ;
+    color: white;
+    cursor: pointer;
+    background-color: #5bc0de;
+    border: 0px solid;*/
+    padding: 0.2rem 0rem;
+    border-radius: 5px;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+  }

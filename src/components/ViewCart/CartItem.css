@@ -1,0 +1,45 @@
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    background-color: #ffffff;
+    position: relative;
+  }
+
+  
+  h4 {
+    color: #3a3a3a;
+    font-size: 1rem;
+    margin: 0;
+    height: 15px;
+    vertical-align: top;
+  }
+  
+  .menu-item__description {
+    height: 15px;
+    vertical-align: top;
+    font-style: italic;
+  }
+  
+  
+  
+  .menu-item__price {
+    
+    font-weight: bold;
+    /* color: #5bc0de; */
+    color: #0275d8;
+    height: 15px;
+    vertical-align: top;
+  }
+  
+  @media (min-width: 580px) {
+    .menu-item__description {
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      flex: 1;
+    }
+}
+  

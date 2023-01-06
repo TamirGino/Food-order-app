@@ -1,0 +1,59 @@
+  .cart-btn {
+    position:fixed;
+    right: 100px;
+    top:20px;
+  }
+  .cart-btn-animation {
+    position:fixed;
+    right: 105px;
+    top:20px;
+    animation: flash linear 1s ;
+  }
+
+  
+  
+  .cart-btn button {
+    font: inherit;
+    cursor: pointer;
+    /* background-color: transparent; */
+    background-color: #0275d8;
+    border: 1px solid #0275d8;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+  }
+  
+  .cart-btn button:hover,
+  .cart-btn button:active {
+    background-color: #0275d8;
+    border-color: #0275d8;
+    color: white;
+  }
+  
+  .cart-update {
+    text-align: center;
+    display: inline;
+    font: inherit;
+    cursor: pointer;
+    background-color: #5bc0de;
+    padding: 0.2rem 0.8rem;
+    border-radius: 50px;
+    margin-left: 1rem;
+  }
+  .cart-update-animation {
+    text-align: center;
+    display: inline;
+    font: inherit;
+    cursor: pointer;
+    background-color: #5bc0de;
+    padding: 0.2rem 0.8rem;
+    border-radius: 50px;
+    margin-left: 1rem;
+    animation: flash linear 1.5s ;
+  }
+
+  @keyframes flash{
+    0%{opacity: 1;}
+    50%{opacity: 0.3;}
+    100%{opacity: 1; }
+  }

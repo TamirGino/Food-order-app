@@ -1,0 +1,29 @@
+.delivery-image-one{
+      top: 300px;
+      left: -30%;
+      position: absolute;
+      animation: move_delivery 2s linear ;
+      width: 200px;
+      height: 200px;
+      
+      
+}
+
+.delivery-image-two{
+    top: 500px;
+    left: -30%;
+    position: absolute;
+    animation: move_delivery 2.5s linear  ;
+    width: 200px;
+    height: 200px;
+}
+
+
+@keyframes move_delivery {
+    from {
+      left: -30%;
+    }
+    to {
+      left: 100%;
+    }
+  }
